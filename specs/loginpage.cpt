@@ -1,0 +1,22 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Giriş yapma sayfasının açıldığının kontrolü
+*"3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/btnLogin" si ile giriş yapma sayfası açıldığı kontolü
+
+#Kullanıcı adına text girilir
+*"3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/etEposta" li kullanıcı adı kısmına "iremugur@gmail.com" girilir
+
+#Şifre kısmına şifre girme
+*"3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/etPassword" li şifre kısmına "asdfghasdfh" girilir
+
+#Geri gitme butonuna iki kere tıklanır
+*"3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/ivBack" li geri gitme butonuna tıklanır
+*"3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/ivBack" li geri gitme butonuna tıklanır
+
+

@@ -1,0 +1,7 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Menüden kadın butonuna tıklanılır
+*"5" saniyeye kadar bekle
+*Xpath "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]" ine sahip elementi bul ve tıkla
+*"5" saniyeye kadar bekle

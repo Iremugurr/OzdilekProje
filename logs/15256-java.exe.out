@@ -1,0 +1,60 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1132milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1132"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50859"}
+{"logLevel":"info","message":"Listening on port:50859"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForSecond' and 'BasePage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findElement' and 'BasePage.findElement'"}
+{"logLevel":"debug","message":"Found {} id si bu olan elementin sayfada gorunur oldugunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'SearchPage.findElementandClick' and 'SearchPage.findElementandClick'"}
+{"logLevel":"debug","message":"Found {} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WomanPage.clickElement' and 'WomanPage.clickElement'"}
+{"logLevel":"debug","message":"Found Xpath {} ine sahip elementi bul ve týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WomanPage.swipeUp' and 'WomanPage.swipeUp'"}
+{"logLevel":"debug","message":"Found Sayfa aþaðý doðru iki kere scroll edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'SearchPage.waitForSecond' and 'SearchPage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'WomanPage.waitForSecond' and 'WomanPage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniyeye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductPage.clickElement' and 'ProductPage.clickElement'"}
+{"logLevel":"debug","message":"Found {} li olan elementi seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductPage.swipeUp' and 'ProductPage.swipeUp'"}
+{"logLevel":"debug","message":"Found Sayfayý aþaðý 2 kere scroll ettir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductPage.waitForSecond' and 'ProductPage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye doluncaya kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfayý aþaðý 2 kere scroll ettir : public void swipeUp()"}
+{"logLevel":"debug","message":"\tSayfa aþaðý doðru iki kere scroll edilir : public void swipeUp()"}
+{"logLevel":"debug","message":"\t{} li olan elementi seç : public void clickElement(String xpath)"}
+{"logLevel":"debug","message":"\tXpath {} ine sahip elementi bul ve týkla : public void clickElement(String xpath)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSecond(ýnt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniyeye kadar bekle : public void waitForSecond(ýnt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id si bu olan elementin sayfada gorunur oldugunu kontrol et : public void findElement(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSecond(ýnt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniye doluncaya kadar bekle : public void waitForSecond(ýnt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla : public void findElementandClick(String id)"}
+Ozdilekteyim mobil testi baslýyor
+Nis 04, 2022 11:00:48 ÖÖ io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class BasePage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla' using 'class SearchPage.findElementandClick"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class SearchPage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla' using 'class SearchPage.findElementandClick"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class SearchPage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniyeye kadar bekle' using 'class WomanPage.waitForSecond"}
+{"logLevel":"debug","message":"Executing 'Xpath {} ine sahip elementi bul ve týkla' using 'class WomanPage.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniyeye kadar bekle' using 'class WomanPage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} saniye doluncaya kadar bekle' using 'class ProductPage.waitForSecond"}
+{"logLevel":"debug","message":"Executing '{} li olan elementi seç' using 'class ProductPage.clickElement"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

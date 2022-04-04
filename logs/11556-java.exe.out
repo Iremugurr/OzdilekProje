@@ -1,0 +1,29 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 2070milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2070"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 65396"}
+{"logLevel":"info","message":"Listening on port:65396"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForSecond' and 'BasePage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findElementandClick' and 'SearchPage.findElementandClick'"}
+{"logLevel":"debug","message":"Comparing 'SearchPage.findElementandClick' and 'SearchPage.findElementandClick'"}
+{"logLevel":"debug","message":"Found {} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findElementandClick' and 'BasePage.findElementandClick'"}
+{"logLevel":"debug","message":"Found {} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForSecond' and 'SearchPage.waitForSecond'"}
+{"logLevel":"debug","message":"Comparing 'SearchPage.waitForSecond' and 'SearchPage.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSecond(ýnt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} si bu olan elementin sayfada gorunur oldugunu kontrol et ve týkla : public void findElementandClick(String id)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

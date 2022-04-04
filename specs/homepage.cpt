@@ -1,0 +1,6 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Sayfa uzerinde alışverişe başla kontrol et ve gorunur olursa tıkla
+*"5" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" si bu olan elementin sayfada gorunur oldugunu kontrol et ve tıkla

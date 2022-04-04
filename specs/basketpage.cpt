@@ -1,0 +1,6 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Sepete ekleme buttonuna tıklanır
+*"3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/relLayAddCardBtn" li sepete ekle buttonuna tıklanır

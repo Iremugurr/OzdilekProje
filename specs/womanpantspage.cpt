@@ -1,0 +1,10 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Pantolon butonuna tıklanılır
+*"5" saniye doluncaya kadar bekle
+*"//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li olan elementi seç
+*"5" saniye doluncaya kadar bekle
+
+# Sayfayı aşağı kaydır
+*Sayfayı aşağı scroll ettir
